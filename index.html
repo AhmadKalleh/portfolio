@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ahmad Kalleh | Backend Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══ NAVBAR ═══ -->
+<nav id="navbar">
+  <a class="logo" href="#home">Ahmad <span>Kalleh</span></a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#contact" class="btn-nav">Contact Me</a>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- ═══ HOME ═══ -->
+<section id="home">
+  <div class="hero-text fade-in">
+    <h1>Hi, It's <span>Ahmad</span></h1>
+    <h2>I'm a <span class="typed-text" id="typedText"></span></h2>
+    <p>Backend Developer with 3+ years of experience, specializing in Laravel & PHP for building scalable RESTful APIs and database-driven applications. Currently pursuing Software Engineering at Damascus University.</p>
+    <div class="social-icons">
+      <a href="https://github.com/AhmadKalleh" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/ahmad-kalleh439221396" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="mailto:ahmadhkalleh@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="tel:+963930028709"><i class="fas fa-phone"></i></a>
+    </div>
+    <div class="hero-buttons">
+      <a href="#contact" class="btn-primary">Hire Me</a>
+      <a href="#contact" class="btn-outline">Contact</a>
+    </div>
+  </div>
+  <div class="hero-image fade-in" style="transition-delay:0.2s">
+    <div class="glow-circle">
+      <img src="images/My-Photo.png" alt="Ahmad Kalleh" />
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ABOUT ═══ -->
+<section id="about">
+  <div class="about-img fade-in">
+    <div class="glow-circle">
+      <img src="images/My-Photo.png" alt="Ahmad Kalleh" />
+    </div>
+  </div>
+  <div class="about-content fade-in" style="transition-delay:0.15s">
+    <h2>About <span>Me</span></h2>
+    <p>I'm Ahmad Hassan Kalleh, a passionate Backend Developer and Software Engineering student at Damascus University (2022–2027). I specialize in building scalable RESTful APIs and database-driven applications using Laravel and PHP.</p>
+    <p>With 3+ years of hands-on experience, I've contributed to real-world projects through the <strong style="color:var(--orange)">Sharaf AI Initiative</strong>, where I'm currently developing an Arabic AI Study Assistant. I'm deeply familiar with clean architecture, design patterns, and parallel programming concepts.</p>
+
+    <div class="skill-bars" id="skillBars">
+      <div class="skill-bar-item">
+        <label><span>Laravel & PHP</span><span>90%</span></label>
+        <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:90%"></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <label><span>MySQL & Database Design</span><span>85%</span></label>
+        <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:85%"></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <label><span>RESTful APIs</span><span>88%</span></label>
+        <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:88%"></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <label><span>C# / .NET</span><span>75%</span></label>
+        <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:75%"></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <label><span>Flutter (Mobile)</span><span>70%</span></label>
+        <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:70%"></div></div>
+      </div>
+    </div>
+
+    <div class="skills-grid" style="margin-top:24px">
+      <span class="skill-tag">Laravel</span>
+      <span class="skill-tag">PHP</span>
+      <span class="skill-tag">MySQL</span>
+      <span class="skill-tag">REST APIs</span>
+      <span class="skill-tag">Redis</span>
+      <span class="skill-tag">Pusher</span>
+      <span class="skill-tag">Flutter</span>
+      <span class="skill-tag">C#</span>
+      <span class="skill-tag">Git & GitHub</span>
+      <span class="skill-tag">Clean Architecture</span>
+      <span class="skill-tag">Design Patterns</span>
+      <span class="skill-tag">Agile/Scrum</span>
+    </div>
+    <div style="margin-top:28px">
+      <a href="#projects" class="btn-primary">View Projects</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SERVICES ═══ -->
+<section id="services">
+  <h2 class="section-title">My <span>Services</span></h2>
+  <div class="services-grid">
+    <div class="service-card fade-in">
+      <div class="service-icon"><i class="fas fa-server"></i></div>
+      <h3>Backend Development</h3>
+      <p>Building scalable, secure and high-performance backend systems using Laravel & PHP with clean architecture and design patterns.</p>
+    </div>
+    <div class="service-card fade-in" style="transition-delay:0.2s">
+      <div class="service-icon"><i class="fas fa-code"></i></div>
+      <h3>RESTful API Design</h3>
+      <p>Designing and implementing robust REST APIs with proper authentication, authorization, and documentation using Postman.</p>
+    </div>
+    <div class="service-card fade-in" style="transition-delay:0.2s">
+      <div class="service-icon"><i class="fas fa-database"></i></div>
+      <h3>Database Design</h3>
+      <p>Expert MySQL and SQL Server database modeling, ERD design, query optimization, and ORM integration for efficient data management.</p>
+    </div>
+    <div class="service-card fade-in" style="transition-delay:0.2s">
+      <div class="service-icon"><i class="fas fa-bolt"></i></div>
+      <h3>Real-Time Systems</h3>
+      <p>Implementing real-time features using WebSockets, Pusher, and Laravel Reverb for live messaging and notification systems.</p>
+    </div>
+    <div class="service-card fade-in" style="transition-delay:0.2s">
+      <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+      <h3>Mobile App Backend</h3>
+      <p>Building complete backend APIs that integrate seamlessly with Flutter mobile applications, including payment gateway integration.</p>
+    </div>
+    <div class="service-card fade-in" style="transition-delay:0.2s">
+      <div class="service-icon"><i class="fas fa-cubes"></i></div>
+      <h3>Clean Architecture</h3>
+      <p>Applying Repository Pattern, Service Layer, and SOLID principles to deliver maintainable, testable, and scalable codebases.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══ PROJECTS ═══ -->
+<section id="projects">
+  <h2 class="section-title">My <span>Projects</span></h2>
+  <div class="projects-grid">
+
+    <div class="project-card fade-in">
+      <div class="project-img" style="font-size:0">
+        <img src="images/Real-Time_Messaging_System.png" alt="Messaging System"/>
+      </div>
+      <div class="project-body">
+        <h3>Real-Time Messaging System</h3>
+        <p>A real-time messaging backend with 20+ REST endpoints supporting one-to-one and group conversations with live delivery using Pusher & WebSockets.</p>
+        <div class="project-tags">
+          <span class="project-tag">Laravel</span>
+          <span class="project-tag">MySQL</span>
+          <span class="project-tag">Pusher</span>
+          <span class="project-tag">WebSockets</span>
+        </div>
+        <a href="https://github.com/AhmadKalleh/Massenger-App.git" target="_blank" class="btn-review">Review Project</a>
+      </div>
+    </div>
+
+    <div class="project-card fade-in" style="transition-delay:0.1s">
+      <div class="project-img" style="font-size:0">
+        <img src="images/Restaurant_Management_System.png" alt="Restaurant System"/>
+      </div>
+      <div class="project-body">
+        <h3>Restaurant Management System</h3>
+        <p>Full restaurant management platform with 4 Flutter apps (Customer, Chef, Receptionist, Admin) integrated with a Laravel dashboard and analytics.</p>
+        <div class="project-tags">
+          <span class="project-tag">Laravel</span>
+          <span class="project-tag">Flutter</span>
+          <span class="project-tag">MySQL</span>
+          <span class="project-tag">REST APIs</span>
+        </div>
+        <a href="https://github.com/AhmadKalleh/Resturant-Managment-App.git" target="_blank" class="btn-review">Review Project</a>
+      </div>
+    </div>
+
+    <div class="project-card fade-in" style="transition-delay:0.2s">
+      <div class="project-img" style="font-size:0">
+        <img src="images/Driving_License_Management_System.png" alt="Driving License System"/>
+      </div>
+      <div class="project-body">
+        <h3>Driving License Management</h3>
+        <p>Desktop application using C# and .NET Framework with 3-Tier Architecture covering applications, tests, licenses, and user management modules.</p>
+        <div class="project-tags">
+          <span class="project-tag">C#</span>
+          <span class="project-tag">.NET</span>
+          <span class="project-tag">SQL Server</span>
+          <span class="project-tag">3-Tier</span>
+        </div>
+        <a href="https://github.com/AhmadKalleh/Driving-License-Management.git" target="_blank" class="btn-review">Review Project</a>
+      </div>
+    </div>
+
+    <div class="project-card fade-in" style="transition-delay:0.05s">
+      <div class="project-img" style="font-size:0">
+        <img src="images/E-Commerce_Delivery_App.png" alt="E-Commerce App"/>
+      </div>
+      <div class="project-body">
+        <h3>Delivery-Application</h3>
+        <p>Mobile e-commerce app supporting 50+ products with full cart, favorites, and order management. Built 40+ REST APIs with third-party integrations.</p>
+        <div class="project-tags">
+          <span class="project-tag">Laravel</span>
+          <span class="project-tag">Flutter</span>
+          <span class="project-tag">MySQL</span>
+          <span class="project-tag">Stripe</span>
+        </div>
+        <a href="https://github.com/AhmadKalleh/Delivery-Applecation.git" target="_blank" class="btn-review">Review Project</a>
+      </div>
+    </div>
+
+    <div class="project-card fade-in" style="transition-delay:0.15s">
+      <div class="project-img" style="font-size:0">
+        <img src="images/library-system.png" alt="Library System"/>
+      </div>
+      <div class="project-body">
+        <h3>Library Management System</h3>
+        <p>Contributed to backend logic, database design, and RESTful APIs for a Library Management System as part of the Sharaf AI Initiative.</p>
+        <div class="project-tags">
+          <span class="project-tag">Laravel</span>
+          <span class="project-tag">MySQL</span>
+          <span class="project-tag">REST APIs</span>
+          <span class="project-tag">Team</span>
+        </div>
+        <a href="https://github.com/AhmadKalleh/Library_Management_System.git" target="_blank" class="btn-review">Review Project</a>
+      </div>
+    </div>
+
+    <div class="project-card fade-in" style="transition-delay:0.25s">
+      <div class="project-img" style="font-size:0">
+        <img src="images/Arabic_AI_Study_Assistant.png" alt="Arabic AI Study Assistant"/>
+      </div>
+      <div class="project-body">
+        <h3>Arabic AI Study Assistant</h3>
+        <p>Currently developing an Arabic AI Study Assistant to enhance student learning using AI technologies — part of the Sharaf AI Initiative.</p>
+        <div class="project-tags">
+          <span class="project-tag">Laravel</span>
+          <span class="project-tag">AI</span>
+          <span class="project-tag">MySQL</span>
+          <span class="project-tag">In Progress</span>
+        </div>
+        <a href="https://github.com/AhmadKalleh" target="_blank" class="btn-review">View on GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card fade-in" style="transition-delay:0.25s">
+      <div class="project-img" style="font-size:0">
+        <img src="images/Calculator_Application.png" alt="Calculator Application"/>
+      </div>
+      <div class="project-body">
+        <h3>Calculator Application</h3>
+        <p>A realistic C# Windows Forms desktop calculator built using OOP principles, supporting advanced arithmetic operations and complex expressions with parentheses.</p>
+        <div class="project-tags">
+          <span class="project-tag">C#</span>
+          <span class="project-tag">.NET Framework</span>
+          <span class="project-tag">Windows Forms</span>
+          <span class="project-tag">OOP</span>
+        </div>
+        <a href="https://github.com/AhmadKalleh/Calculator-Project.git" target="_blank" class="btn-review">View on GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card fade-in" style="transition-delay:0.25s">
+      <div class="project-img" style="font-size:0">
+        <img src="images/Islamic_Application.png" alt="Islamic Application"/>
+      </div>
+      <div class="project-body">
+        <h3>Islamic Application</h3>
+        <p>An integrated C# Windows Forms desktop application featuring accurate prayer times, interactive Adhkar and Tasbih counters, and full Quran text with audio streaming capabilities.</p>
+        <div class="project-tags">
+          <span class="project-tag">C#</span>
+          <span class="project-tag">.NET Framework</span>
+          <span class="project-tag">Windows Forms</span>
+          <span class="project-tag">Desktop App</span>
+        </div>
+        <a href="https://github.com/AhmadKalleh/Islamic-Project.git" target="_blank" class="btn-review">View on GitHub</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══ CONTACT ═══ -->
+<section id="contact">
+  <h2 class="section-title">Contact <span>Me</span></h2>
+  <div class="contact-wrapper fade-in">
+    <div class="contact-fields">
+      <input type="text" class="contact-input" placeholder="Full Name" />
+      <input type="email" class="contact-input" placeholder="Email" />
+      <input type="tel" class="contact-input" placeholder="Phone Number" />
+      <input type="text" class="contact-input" placeholder="Subject" />
+    </div>
+    <div class="contact-right">
+      <textarea class="contact-input" placeholder="Your Message"></textarea>
+      <button class="btn-send" onclick="handleSend()">Send Message</button>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="footer-social">
+    <a href="https://github.com/AhmadKalleh" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://linkedin.com/in/ahmad-kalleh439221396" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="mailto:ahmadhkalleh@gmail.com"><i class="fas fa-envelope"></i></a>
+    <a href="tel:+963930028709"><i class="fas fa-phone"></i></a>
+  </div>
+  <div class="footer-links">
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <p>© Ahmad Kalleh | All Rights Reserved</p>
+</footer>
+
+<script>
+  // ── Navbar scroll effect
+  window.addEventListener('scroll', () => {
+    document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 40);
+  });
+
+  // ── Hamburger menu
+  document.getElementById('hamburger').addEventListener('click', () => {
+    document.getElementById('navLinks').classList.toggle('open');
+  });
+  document.querySelectorAll('.nav-links a').forEach(a => {
+    a.addEventListener('click', () => document.getElementById('navLinks').classList.remove('open'));
+  });
+
+  // ── Typing animation
+  const roles = ['Backend Developer', 'Laravel Expert', 'API Architect', 'PHP Developer'];
+  let ri = 0, ci = 0, deleting = false;
+  const el = document.getElementById('typedText');
+  function type() {
+    const word = roles[ri];
+    el.textContent = deleting ? word.slice(0, ci--) : word.slice(0, ci++);
+    if (!deleting && ci > word.length) { deleting = true; setTimeout(type, 1400); return; }
+    if (deleting && ci < 0) { deleting = false; ri = (ri + 1) % roles.length; }
+    setTimeout(type, deleting ? 60 : 110);
+  }
+  type();
+
+  // ── Scroll fade-in
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+  // ── Skill bar animation
+  const barObserver = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.querySelectorAll('.skill-bar-fill').forEach(b => b.classList.add('animated'));
+      }
+    });
+  }, { threshold: 0.3 });
+  const sb = document.getElementById('skillBars');
+  if (sb) barObserver.observe(sb);
+
+  // ── Contact send
+  function handleSend() {
+    const btn = document.querySelector('.btn-send');
+    btn.textContent = '✓ Message Sent!';
+    btn.style.background = '#2ecc71';
+    setTimeout(() => {
+      btn.textContent = 'Send Message';
+      btn.style.background = '';
+    }, 3000);
+  }
+</script>
+</body>
+</html>
